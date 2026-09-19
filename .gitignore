@@ -1,0 +1,32 @@
+# Environment & Secrets (NEVER COMMIT TO GIT)
+.env
+.env.local
+.env.*.local
+
+# Database & Local Data Storage
+data/*.db
+data/*.sqlite
+*.db
+*.sqlite
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
